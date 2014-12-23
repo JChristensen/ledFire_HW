@@ -33831,6 +33831,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="15.24" y="10.16" size="2.54" layer="94" ratio="10">LED PWM Fire Effect by Jack Christensen is licensed
 under CC BY-SA 4.0 http://creativecommons.org/licenses/by-sa/4.0/                       </text>
 <text x="15.24" y="20.32" size="3.81" layer="94" ratio="12">CC BY-SA</text>
+<text x="261.62" y="7.62" size="2.54" layer="94" ratio="12">v1.1</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
