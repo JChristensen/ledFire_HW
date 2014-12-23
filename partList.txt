@@ -1,0 +1,37 @@
+Partlist
+
+Exported from ledFire.brd at 11/22/2014 5:24:40 PM
+
+EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part     Value          Package                Library  Position (inch)       Orientation
+
+B1       2xAA           KEYSTONE-2462-NO-HOLES _jc      (1.2 0.65)            R0
+C1       10uF           M0805                  _jc      (0.275 0.725)         R180
+C2       10uF           M0805                  _jc      (0.435 0.695)         R90
+C3       10uF           M0805                  _jc      (0.25 0.46)           R180
+C4       100nF          M0805                  _jc      (0.99 0.29)           R0
+D1       5mm            LED5MM                 _jc      (1.2 0.65)            R0
+D2       5mm            LED5MM                 _jc      (1.5 0.65)            R0
+D3       5mm            LED5MM                 _jc      (1.8 0.65)            R0
+D4       5mm            LED5MM                 _jc      (2.1 0.65)            R0
+JP1      ICSP           2X3_LOCK               _jc      (1.325 1.175)         R180
+JP2      Ext Sw         1X02_LONGPADS          SparkFun (0.77 0.9)            R0
+L1       4.7uH          NRS5020                _jc      (0.32 0.9)            R180
+Q1       MUN5235DW1T1G  SOT363_PHILIPS         _jc      (1.35 0.35)           R180
+Q2       MUN5235DW1T1G  SOT363_PHILIPS         _jc      (1.95 0.955)          R0
+R1       62             M0805                  _jc      (1.2 0.4)             R270
+R2       62             M0805                  _jc      (1.5 0.4)             R270
+R3       62             M0805                  _jc      (1.8 0.9)             R90
+R4       62             M0805                  _jc      (2.1 0.9)             R90
+R5       10K            M0805                  _jc      (1.155 0.945)         R0
+R6       976K           M0805                  _jc      (0.435 0.495)         R270
+R7       309K           M0805                  _jc      (0.39 0.31)           R270
+R8       249K           M0805                  _jc      (0.495 0.31)          R90
+S1       Power          SWITCH-SPDT-SMD        SparkFun (0.45 1.225)          R0
+SJ1      5V             SJ                     jumper   (0.475 0.15)          R0
+SJ2      Cutoff voltage SJ_2                   jumper   (0.9 0.15)            R0
+U1       MCP1640        SOT23-6                _jc      (0.27 0.595)          R270
+U2       ATtiny84A-SSU  SO14                   _jc      (0.8 0.55)            R90
