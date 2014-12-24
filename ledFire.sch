@@ -3286,12 +3286,12 @@ Philips Semiconductors, SOT363.pdf</description>
 <wire x1="1" y1="-0.55" x2="-1" y2="-0.55" width="0.2032" layer="51"/>
 <wire x1="-1" y1="-0.55" x2="-1" y2="0.55" width="0.2032" layer="21"/>
 <circle x="-0.7" y="-0.25" radius="0.15" width="0" layer="21"/>
-<smd name="1" x="-0.65" y="-0.8" dx="0.4" dy="0.8" layer="1"/>
-<smd name="2" x="0" y="-0.8" dx="0.4" dy="0.8" layer="1"/>
-<smd name="3" x="0.65" y="-0.8" dx="0.4" dy="0.8" layer="1"/>
-<smd name="4" x="0.65" y="0.8" dx="0.4" dy="0.8" layer="1"/>
-<smd name="5" x="0" y="0.8" dx="0.4" dy="0.8" layer="1"/>
-<smd name="6" x="-0.65" y="0.8" dx="0.4" dy="0.8" layer="1"/>
+<smd name="1" x="-0.65" y="-0.95" dx="0.4" dy="1" layer="1"/>
+<smd name="2" x="0" y="-0.95" dx="0.4" dy="1" layer="1"/>
+<smd name="3" x="0.65" y="-0.95" dx="0.4" dy="1" layer="1"/>
+<smd name="4" x="0.65" y="0.95" dx="0.4" dy="1" layer="1"/>
+<smd name="5" x="0" y="0.95" dx="0.4" dy="1" layer="1"/>
+<smd name="6" x="-0.65" y="0.95" dx="0.4" dy="1" layer="1"/>
 <text x="-1.1" y="1.45" size="0.8128" layer="25" ratio="16">&gt;NAME</text>
 <text x="-1.1" y="-2.7" size="0.8128" layer="27" ratio="16">&gt;VALUE</text>
 <rectangle x1="-0.8" y1="-1.1" x2="-0.5" y2="-0.6" layer="51"/>
@@ -33776,7 +33776,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="FRAME_A_L" device="" value="frame"/>
-<part name="U1" library="_jc" deviceset="MCP1640" device="" value="MCP1640"/>
+<part name="U1" library="_jc" deviceset="MCP1640" device="" value="MCP1640D"/>
 <part name="R6" library="_jc" deviceset="R-US_" device="M0805" value="976K"/>
 <part name="R7" library="_jc" deviceset="R-US_" device="M0805" value="309K"/>
 <part name="L1" library="_jc" deviceset="INDUCTOR" device="NRS5020" value="4.7uH"/>

@@ -1,6 +1,6 @@
 Partlist
 
-Exported from ledFire.sch at 12/23/2014 5:24:25 PM
+Exported from ledFire.sch at 12/23/2014 10:06:25 PM
 
 EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
 
@@ -33,5 +33,5 @@ R8       249K           R-US_M0805            M0805                  _jc      1
 S1       Power          SWITCH-SPSTSMD2       SWITCH-SPDT-SMD        SparkFun 1
 SJ1      5V             SJ                    SJ                     jumper   1
 SJ2      Cutoff voltage SJ2W                  SJ_2                   jumper   1
-U1       MCP1640        MCP1640               SOT23-6                _jc      1
+U1       MCP1640D       MCP1640               SOT23-6                _jc      1
 U2       ATtiny84A-SSU  ATTINYX4SO14          SO14                   _jc      1
