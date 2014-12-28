@@ -1,7 +1,7 @@
 # LED PWM Fire Effect (Hardware Design) #
-http://github.com/JChristensen/ledFire_HW
+http://github.com/JChristensen/ledFire_HW  
 LICENSE file  
-Jack Christensen Nov 2014  
+Jack Christensen Dec 2014  
 
 ![CC BY-SA](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
 ## CC BY-SA ##
