@@ -5,9 +5,12 @@ Jack Christensen Dec 2014
 
 ## Introduction ##
 
-A simple project to simulate the appearance of a candle or other small fire using pulse width modulation and an ATtiny84A microcontroller. The original application of this project was to light a Halloween jack-o-lantern.
+A small project to simulate the appearance of a candle or other small fire using pulse width modulation and an ATtiny84A microcontroller. The original application of this project was to light a Halloween jack-o-lantern.
 
-Firmware is available [on GitHub](http://goo.gl/VueLrD).
+[Here](https://vimeo.com/110424346) is a video.  
+Firmware is available [on GitHub](http://goo.gl/VueLrD).  
+PC boards can be ordered [from OSH Park](https://www.oshpark.com/shared_projects/ASV7G4qa).  
+A Bill of Materials with Mouser part numbers is part of this repo.
 
 ## Circuit Details ##
 
@@ -17,9 +20,9 @@ I use high-brightness LEDs with clear lenses. I only populate three LEDs, two ye
 
 The circuit uses a boost regulator to keep the supply voltage and therefore the LED brightness constant as the battery ages. By default, the regulator supplies 3.3V, but this can be changed to 5V via a solder jumper.
 
-The MCU monitors its supply voltage and if it appears that the battery has been exhausted to the point where the regulator cannot supply the proper voltage, the MCU shuts down the circuit and goes into low-power sleep mode. The MCP1640 boost regulator has the ability to operate with less than one volt input; this can drain the battery to the point where the cells leak, so the shutdown mechanism is implemented in an effort to prevent this.
+The MCU monitors the supply voltage and once the battery has been exhausted to the point where the regulator cannot supply the proper voltage, the MCU shuts down the circuit and goes into low-power sleep mode. The MCP1640 boost regulator has the ability to operate with less than one volt input; this can drain the battery to the point where the cells leak, so the shutdown mechanism is implemented in an effort to prevent this.
 
-The cutoff voltage for the shutdown is selected by another solder jumper; the board is strapped for a 3V cutoff by default (to correspond to the regulator being set for 3.3V). If the regulator is changed to 5V, the cutoff should be changed to 4.5V using the jumper. Having said that, I see little use for operating the circuit with a 5V supply voltage as it will reduce battery life, but it was easy enough to implement at no extra cost. A 5V supply will also likely require different values for the LED current-limiting resistors.
+The cutoff voltage for the shutdown is selected by another solder jumper; the board is strapped for a 3V cutoff by default (to correspond to the regulator being set for 3.3V). If the regulator is changed to 5V, the cutoff should be changed to 4.5V using the jumper. Having said that, I see little use for operating the circuit with a 5V supply voltage as it will reduce battery life, but it was easy enough to implement at no extra cost (well, one resistor). A 5V supply will also likely require different values for the LED current-limiting resistors.
 
 ## CC BY-SA ##
 "LED PWM Fire Effect" by Jack Christensen is licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
