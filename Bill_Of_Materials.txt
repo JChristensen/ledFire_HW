@@ -1,0 +1,32 @@
+LED PWM Fire Effect
+Bill of Materials
+Jack Christensen Dec 2014
+
+Part    Value            Package             Mouser Part No.
+B1      2xAA             Keystone 2462       534-2462
+C1      10uF             M0805               81-GRM21BR71A106KA3L
+C2      10uF             M0805               81-GRM21BR71A106KA3L
+C3      10uF             M0805               81-GRM21BR71A106KA3L
+C4      100nF            M0805               581-08055C104K
+D1      Yellow           LED5MM              859-LTL2H3PYK14
+D2      Red              LED5MM              859-LTL2H3EZ1K
+D3      Yellow           LED5MM              859-LTL2H3PYK14
+D4      DNP              LED5MM              (Do Not Populate)
+JP1     ICSP                                 (Common Headers)
+JP2     Ext Sw                               (Optional External Switch)
+L1      4.7uH            4mm x 4mm           963-NRS4018T4R7MDGJ
+Q1      MUN5235DW1T1G    SOT363              863-MUN5235DW1T1G
+Q2      MUN5235DW1T1G    SOT363              863-MUN5235DW1T1G
+R1      62               M0805               660-RK73H2ATTD62R0F
+R2      62               M0805               660-RK73H2ATTD62R0F
+R3      62               M0805               660-RK73H2ATTD62R0F
+R4      62               M0805               660-RK73H2ATTD62R0F
+R5      10K              M0805               660-RK73H2ATTD1002F
+R6      976K             M0805               660-RK73H2ATTD9763F
+R7      309K             M0805               660-RK73H2ATTD3093F
+R8      249K             M0805               660-RK73H2ATTD2493F
+S1      Power            C&K JS102011SAQN    611-JS102011SAQN
+SJ1     5V               Solder Jumper       (N/A)
+SJ2     Cutoff voltage   Solder Jumper       (N/A)
+U1      MCP1640D         SOT23-6             579-MCP1640DT-I/CHY
+U2      ATtiny84A-SSU    SO14                556-ATTINY84A-SSU
