@@ -27,4 +27,6 @@ The cutoff voltage for the shutdown is selected by another solder jumper; the bo
 ## CC BY-SA ##
 "LED PWM Fire Effect" by Jack Christensen is licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
 
-![](https://raw.githubusercontent.com/JChristensen/ledFire_HW/master/board.png)
+![](https://raw.githubusercontent.com/JChristensen/ledFire_HW/master/board1.jpg)
+  
+![](https://raw.githubusercontent.com/JChristensen/ledFire_HW/master/board2.jpg)
