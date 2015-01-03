@@ -3286,12 +3286,12 @@ Philips Semiconductors, SOT363.pdf</description>
 <wire x1="1" y1="-0.55" x2="-1" y2="-0.55" width="0.2032" layer="51"/>
 <wire x1="-1" y1="-0.55" x2="-1" y2="0.55" width="0.2032" layer="21"/>
 <circle x="-0.7" y="-0.25" radius="0.15" width="0" layer="21"/>
-<smd name="1" x="-0.65" y="-0.95" dx="0.4" dy="1" layer="1"/>
-<smd name="2" x="0" y="-0.95" dx="0.4" dy="1" layer="1"/>
-<smd name="3" x="0.65" y="-0.95" dx="0.4" dy="1" layer="1"/>
-<smd name="4" x="0.65" y="0.95" dx="0.4" dy="1" layer="1"/>
-<smd name="5" x="0" y="0.95" dx="0.4" dy="1" layer="1"/>
-<smd name="6" x="-0.65" y="0.95" dx="0.4" dy="1" layer="1"/>
+<smd name="1" x="-0.65" y="-1.1" dx="0.4" dy="0.8" layer="1"/>
+<smd name="2" x="0" y="-1.1" dx="0.4" dy="0.8" layer="1"/>
+<smd name="3" x="0.65" y="-1.1" dx="0.4" dy="0.8" layer="1"/>
+<smd name="4" x="0.65" y="1.1" dx="0.4" dy="0.8" layer="1"/>
+<smd name="5" x="0" y="1.1" dx="0.4" dy="0.8" layer="1"/>
+<smd name="6" x="-0.65" y="1.1" dx="0.4" dy="0.8" layer="1"/>
 <text x="-1.1" y="1.45" size="0.8128" layer="25" ratio="16">&gt;NAME</text>
 <text x="-1.1" y="-2.7" size="0.8128" layer="27" ratio="16">&gt;VALUE</text>
 <rectangle x1="-0.8" y1="-1.1" x2="-0.5" y2="-0.6" layer="51"/>
@@ -3407,12 +3407,11 @@ Philips Semiconductors, SOT363.pdf</description>
 5 mm, round</description>
 <wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.127" layer="21"/>
 <wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.127" layer="21" curve="-286.260205" cap="flat"/>
-<wire x1="-1.905" y1="1.905" x2="-0.635" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
 <pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.778"/>
 <pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.778"/>
 <text x="3.175" y="0.5334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.016" y="1.905" size="1.778" layer="21" ratio="16" align="center">+</text>
 </package>
 <package name="LSU260">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;

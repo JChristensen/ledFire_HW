@@ -14,7 +14,7 @@ A Bill of Materials with Mouser part numbers is part of this repo.
 
 ## Circuit Details ##
 
-The circuit is meant to run on two AA cells; either alkaline or rechargeable types (NiMH, NiCd) will work. Battery life with two fresh alkaline cells is about 40 hours continuous with three LEDs installed on the board. The board is sized to fit on the back of a Keystone no. 2462 battery holder.
+The circuit is meant to run on two AA cells; either alkaline or rechargeable types (NiMH, NiCd) will work. Battery life with two fresh alkaline cells is over 50 hours continuous with three LEDs installed on the board. The board is sized to fit on the back of a Keystone no. 2462 battery holder.
 
 I use high-brightness LEDs with clear lenses. I only populate three LEDs, two yellow and one red. This worked well for my application. Adding the fourth LED will reduce battery life somewhat but the MCU has four PWM outputs so it is there as an option (the firmware drives all four).
 
